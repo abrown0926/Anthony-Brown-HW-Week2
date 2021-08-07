@@ -10,7 +10,6 @@ body {
     margin-bottom: 100px;
 }
 
-/* Header */
 header {
     display: inline-flex;
     float: left;
@@ -33,7 +32,6 @@ header img {
     padding: 10px;
 }
 
-/* Navbar */
 nav {
     float: right;
 }
@@ -66,7 +64,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* Background Img */ 
 .nature {
     height: 800px;
     width: 100%;
@@ -76,7 +73,6 @@ nav a:hover {
     background-position: center;
 }
 
-/* About, Projects, & Contact Info */
 #about h2, #projects h2, #contact h2 {
     padding: 20px;
     display: flex;
@@ -138,22 +134,12 @@ nav a:hover {
     color: #00bbff;
     font-family: arial;
     padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .email, .phone, .linkedin, .github {
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
 }
-
-/* Media Query */
-@media screen and (max-width: 768px) {
-    header,
-    nav, section, #contact {
-      flex-direction: column;
-    }
-    
-}
-  
