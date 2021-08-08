@@ -71,7 +71,7 @@ nav a:hover {
     height: 800px;
     width: 100%;
     margin-bottom: 40px;
-    background-image: url("/Users/anthonybrown/Desktop/Anthony-Brown-HW-Week2/assets/images/Woman in nature - 1280x854.jpg");
+    background-image: url("./assets/images/Woman in nature - 1280x854.jpg");
     background-size: cover;
     background-position: center;
 }
